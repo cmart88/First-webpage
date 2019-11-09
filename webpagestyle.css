@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?cs=srgb&dl=background-brown-carpentry-326311.jpg&fm=jpg) no-repeat center center; 
+  background-size: cover;
+  height: 500px;
+  text-align: center; 
+}
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+}
+ .nav ul li:hover {
+  background: #743909;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+input{
+	border: 0px;
+	padding: 10px;
+	font-size: 18px
+}
+input[type="submit"]{
+	color: white;
+	background: rgba(112, 39, 5, 0.795);
+}
+img{
+  padding: 10px 10px 0px 0px;
+  background-size: cover;
+}
+button{
+  padding: 10px;
+  margin: auto;
+  height: 60px;
+  width: 110px;
+  text-align: center;
+  font-size: 18px;
+  color: aliceblue;
+  background-size: auto;
+  background: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?cs=srgb&dl=background-brown-carpentry-326311.jpg&fm=jpg)
+}
+.href{
+  color: #000;
+}
+.content{
+  background: #000;
+}
+
+.footer{
+  background: #000;
+}
+.img{
+  background-size: cover;
+}
